@@ -1,0 +1,82 @@
+/* QuizComponent.css */
+
+.quiz-container {
+    text-align: center;
+    padding: 20px;
+    /* background: ; */
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+  }
+  .question-container {
+    background:#FFFFF0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .question-container button{
+    background-color: #FFF;
+  }
+  .question-container button:hover{
+    background-color:  rgba(255, 111, 71, 0.8);
+  }
+  .question-container button:disabled{
+    background-color: #FFF;
+  }
+  .question-container .incorrect:disabled{
+    background-color: red;
+  }
+  .question-container button:disabled:hover{
+    background-color: #FFF;
+  }
+  .question-container .incorrect:hover{
+    background-color: red;
+    color: white;
+   }
+   .question-container .react-quiz-container .startQuizBtn{
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   .question-container .react-quiz-container .startQuizBtn:hover{
+    background-color: #ff6f47;
+   }
+    .question-container .react-quiz-container .questionWrapper .card-body .quiz-result-filter .filter-dropdown-select{
+        height: fit-content;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+   } 
+    .question-container .react-quiz-container .questionWrapper .card-body .quiz-result-filter{
+         margin: auto;
+    }
+    .question-container .react-quiz-container .questionWrapper .questionWrapperBody .questionBtnContainer .nextQuestionBtn{
+
+        font-size: 1em;
+        color: #fff;
+        background-color: #ff7e5f;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+    }
+    .question-container .react-quiz-container .questionWrapper .questionWrapperBody .questionBtnContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .question-container .react-quiz-container .questionWrapper .questionWrapperBody .questionBtnContainer .nextQuestionBtn:hover{
+        background-color: #ff6f47;
+    }

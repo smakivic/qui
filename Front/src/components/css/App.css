@@ -1,0 +1,121 @@
+/* Navbar.css */
+.navbar-custom {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Positions the navbar at the top of the page */
+    width: 100%; /* Ensures the navbar takes up the full width of the page */
+    z-index: 1; /* Keeps the navbar on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better visibility */
+    margin-bottom: 50px;
+}
+
+  .navbar-brand-custom {
+    font-size: 1.5em;
+    /* color: #fff !important; */
+    /* font-weight: bold; */
+    padding: 5px 10px;
+    border: 2px solid #ff7e5f;
+    border-radius: 10px;
+  }
+  
+  .navbar-brand-custom:hover {
+    color: #ff6f47 !important;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 150ms ease;
+  }
+  .nav-link-custom {
+    color: black;
+    margin-right: 10px;
+    font-size: 1.1em;
+    border: 2px solid transparent;
+    border-radius: 10px;
+  }
+  
+  
+  .navbar-toggler-custom {
+    border-color: #ff7e5f;
+  }
+  
+  .navbar-toggler-custom:focus {
+    box-shadow: none;
+  }
+  
+  .logout-button {
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+
+  .logout-button:hover {
+    background-color: #ff6f47;
+    color: #fff;
+  }
+  
+  .custom-hr {
+    border: 0;
+    height: 3px;
+    width: 98%;
+    background: #db0000;
+    font-weight: bold;
+    margin: 0 auto;
+    /* color: black; */
+  }
+  .hr-container{
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+  }
+   .navbar-collapse .navbar-nav {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center the items vertically */
+    justify-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .nav-link-custom:hover {
+        color: #ff6f47 !important;
+        border: 2px solid #ff6f47;
+        border-radius: 10px;
+      }
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  padding: 20px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto; /* This pushes the footer to the bottom of the page */
+  border: none;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow for better visibility */
+  
+}
+
+.footer p {
+  text-align: center; /* Optionally, if you want to center-align the text within the paragraph */
+}
+
+.main-content {
+  flex: 1; /* This allows the main content to take up the remaining space between the header and footer */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+@media (min-width: 768px) {
+  .footer {
+    font-size: 14px;
+  }
+}

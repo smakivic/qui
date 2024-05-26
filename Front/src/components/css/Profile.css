@@ -1,0 +1,136 @@
+/* Form.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background: #FFFFF0;
+    width: 95vw;
+    margin-top: 90px;
+  }
+  
+  .form-container h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-group input {
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    /* width: 90%; Adjusted width */
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-group button {
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .button-group button:last-child {
+    margin-bottom: 0;
+  }
+  
+  .button-group button:hover {
+    background-color: #ff6f47;
+  }
+  .form-button{
+    margin-bottom: 15px;
+  }
+  .title-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* css for the scoreboard part */
+  /* Scoreboard.css */
+
+.scoreboard-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px;
+    background: #FFFFF0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 90px;
+    width: 95vw;
+  }
+  
+  .scoreboard-container h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .scoreboard-container ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .scoreboard-container li {
+    margin-bottom: 10px;
+  }
+  
+  .scoreboard-container .no-attempts {
+    margin-top: 10px;
+    color: #777;
+  }
+  
+  .scoreboard-container .button-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .scoreboard-container .button-group button {
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .scoreboard-container .button-group button:last-child {
+    margin-bottom: 0;
+  }
+  
+  .scoreboard-container .button-group button:hover {
+    background-color: #ff6f47;
+  }
+  
